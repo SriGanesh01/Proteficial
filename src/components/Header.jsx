@@ -2,29 +2,20 @@ import React from 'react';
 
 function HeaderHome() {
     return (
-        <div className="flex flex-row bg-[#323232] py-3 items-center justify-between px-5">
-            <div>
-                <ol className='flex flex-row space-x-5 text-white pt-[26px]'>
+        <div className="flex flex-row bg-gradient-to-b from-[#2F0046] to-[#29003E] py-3 items-center justify-between px-5">
+            <div className='flex flex-row space-x-5 pt-[26px]'>
+                <a href="/" className='text-white text-[22px]'>Home</a>
+            </div>
+            <div className='ml-auto'>
+                <ol className='flex flex-row space-x-5 text-white pt-[26px] '>
                     <li>
-                        <a href="/home" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline'>home</a>
-                    </li>
-                    <li>
-                        <a href="/demo" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline'>demo</a>
-                    </li>
-                    <li>
-                        <a href="/documentation" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline'>documentation</a>
+                        <a href="/Proteficial" className='text-white text-[22px]'>Proteficial</a>
                     </li>
                     <li>
-                        <a href="/downloads" className='text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline'>download</a>
+                        <a href="/Blog" className='text-white text-[22px]'>Blog</a>
                     </li>
-                    <li className="relative">
-                        <a href="/blog" className="text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline">Blog/Updates</a>
-                    </li>
-                    <li className="relative">
-                        <a href="/about" className="text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline">About</a>
-                    </li>
-                    <li className="relative">
-                        <a href="/contacts" className="text-white text-[6px] sm:text-[12px] lg:text-[22px] font-normal font-Aldrich hover:underline">Contacts</a>
+                    <li>
+                        <a href="/AboutUs" className='text-white text-[22px]'>About Us</a>
                     </li>
                 </ol>
             </div>

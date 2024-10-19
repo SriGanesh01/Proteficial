@@ -1,38 +1,88 @@
+import Call from '../assets/Call.svg';
+import Follow from '../assets/Follow.svg';
+import Mail from '../assets/Mail.svg';
+import GitHub from '../assets/GitHub.svg';
+import Instagram from '../assets/Instagram.svg';
+import LinkedIn from '../assets/LinkedIn.svg';
+import TwitterX from '../assets/TwitterX.svg';
+import WhatsApp from '../assets/WhatsApp.svg';
 
 function Footer() {
     return (
-        <div className="flex flex-col items-center bg-[#323232] py-3">
-            <ol className="flex justify-center h-6 mb-0 pt-1">
-                <li className="px-2">
-                    <a href="https://www.instagram.com/_sriganesh___?igsh=MXdsZThsanZtMHI3Mg%3D%3D" target="_blank" rel="noopener noreferrer">
-                        <img  alt="Instagram" className="w-3 sm:w-5 lg:w-7" />
-                    </a>
-                </li>
-                <li className="px-2">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                        <img  alt="Facebook" className="w-3 sm:w-5 lg:w-7" />
-                    </a>
-                </li>
-                <li className="px-2">
-                    <a href="https://x.com/_sriganesh_?t=-1PlpyoUV2-HrKTCfp0Z2Q&s=09" target="_blank" rel="noopener noreferrer">
-                        <img  alt="Twitter" className="w-3 sm:w-5 lg:w-7" />
-                    </a>
-                </li>
-                <li className="px-2">
-                    <a href="https://www.linkedin.com/in/sriganesh-prakash-725a50279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
-                        <img  alt="LinkedIn" className="w-3 sm:w-5 lg:w-7" />
-                    </a>
-                </li>
-                <li className="px-2">
-                    <a href="https://github.com/SriGanesh01" target="_blank" rel="noopener noreferrer">
-                        <img  alt="GitHub" className="w-3 sm:w-5 lg:w-7" />
-                    </a>
-                </li>
-            </ol>
-            <h2 className="text-sm sm:text-lg lg:text-2xl font-bold pl-2 mt-0 lg:mt-5 lg:mb-2">
-                Innovixity
-            </h2>
-            <p className="text-xs sm:text-sm lg:text-xl">Copyright &copy; {new Date().getFullYear()} Innovixity, Inc.</p>
+        <div className="">
+            <div className="bg-[#780F9B] flex text-white font-['Alata'] px-6">
+                <div className="flex flex-grow flex-row space-x-3 items-center">
+                    <div>
+                        <img src={Call} alt="Call Us" className='h-10' />
+                    </div>
+                    <div>
+                        <p>Call Us</p>
+                        <p>+91 9949463478</p>
+                    </div>
+                </div>
+                <div className="flex flex-grow flex-row space-x-3 items-center">
+                    <div>
+                        <img src={Mail} alt="Mail Us" className='h-10' />
+                    </div>
+                    <div>
+                        <p>Mail Us</p>
+                        <p>synnux2027@gmail.com</p>
+                    </div>
+                </div>
+                <div className="flex flex-grow flex-row space-x-3 items-center">
+                    <div>
+                        <img src={Follow} alt=" Follow Us" className='h-10' />
+                    </div>
+                    <div>
+                        <p>Follow Us</p>
+                        <div className='flex flex-row mx-[-2px] space-x-1'>
+                            <img src={WhatsApp} alt="Whatsapp" href="#" className='h-7'/>
+                            <img src={LinkedIn} alt="LinkedIn" href="#" className='h-7'/>
+                            <img src={Instagram} alt="Instagram" href="#" className='h-7'/>
+                            <img src={GitHub} alt="GitHub" href="#" className='h-7'/>
+                            <img src={TwitterX} alt="Twitter" href="#" className='h-7'/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="bg-[#591657] flex text-white py-4">
+                <div className="flex-grow px-7 pt-2">
+                    <h2 className="text-[28px] font-['Alata']">About Us</h2>
+                </div>
+                
+                <div className="h-auto w-0 border-l border-white my-3"></div>
+
+                <div className="pt-2 pb-7 flex-grow px-7">
+                    <h2 className="text-[28px] font-['Alata']">Quick Links</h2>
+                    <ol className="">
+                        <li className="pt-2">
+                            <a href="/home" className="text-white text-sm font-['Alata']">Home</a>
+                        </li>
+                        <li className="pt-2">
+                            <a href="/Proteficial" className="text-white text-sm font-['Alata']">Proteficial</a>
+                        </li>
+                        <li className="pt-2">
+                            <a href="/Blog" className="text-white text-sm font-['Alata']">Blog</a>
+                        </li>
+                        <li className="pt-2">
+                            <a href="/AboutUs" className="text-white text-sm font-['Alata']">About Us</a>
+                        </li>
+                    </ol>
+                </div>
+                
+                <div className="h-auto w-0 border-l border-white my-3"></div>
+
+                <div className="flex-grow px-7 pt-2">
+                    <h2 className="text-[28px] font-['Alata']">Our Products</h2>
+                </div>
+            </div>
+
+            <div className="bg-[#390642]">
+                <p className="text-white flex justify-center items-center py-2">
+                    Copyright &copy; 2024 Synnux. All Rights Reserved
+                </p>
+            </div>
         </div>
     );
 }
