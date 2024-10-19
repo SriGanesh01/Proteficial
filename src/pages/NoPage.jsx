@@ -1,14 +1,14 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-function Home() {
+function NoPage() {
     return (
         <div>
             <Header />
-
+            <h1>404 - Not Found</h1>
             <Footer />
         </div>
     );
 }
 
-export default Home;
+export default NoPage;

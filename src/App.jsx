@@ -1,19 +1,18 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { ToastContainer } from 'react-toastify'
 
 import Home from './pages/Home'
+import NoPage from './pages/NoPage'
 
 function App() {
     return (
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route index element={<Signup />} />
+                    <Route index element={<Home />} />
                     <Route path="/home" element={<Home />} />
+                    <Route path="*" element={<NoPage />} />
                 </Routes>
             </BrowserRouter>
-            <ToastContainer />
-            
         </>
     )
 }
