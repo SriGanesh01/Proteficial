@@ -4,7 +4,7 @@ function HeroHome() {
     return (
         <>
             <div className="bg-gradient-to-b from-[#29003E] to-[#070309] h-screen flex flex-col justify-center items-center">
-                <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-[#0082d3] via-[#9335b6] to-[#e2008f] text-[120px] font-normal font-['Alata']">
+                <h1 className="text-transparent bg-clip-text bg-gradient-to-tr from-[#0082d3] via-[#9335b6] to-[#e2008f] text-[120px] font-normal font-['Alata']">
                     Proteficial
                 </h1>
                 <h2 className="font-['Alata'] text-white mt-[-30px] text-[30px]">AI-powered solution to predict protein structures reliably</h2>

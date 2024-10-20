@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'Alata': ['Alata', 'sans-serif'],
         'Actor': ['Actor', 'sans-serif'],
+        'BlackHanSans': ['Black Han Sans', 'sans-serif'],
       }
     },
   },

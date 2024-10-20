@@ -36,12 +36,23 @@ function Footer() {
                     <div>
                         <p>Follow Us</p>
                         <div className='flex flex-row mx-[-2px] space-x-1'>
-                            <img src={WhatsApp} alt="Whatsapp" href="#" className='h-7'/>
-                            <img src={LinkedIn} alt="LinkedIn" href="#" className='h-7'/>
-                            <img src={Instagram} alt="Instagram" href="#" className='h-7'/>
-                            <img src={GitHub} alt="GitHub" href="#" className='h-7'/>
-                            <img src={TwitterX} alt="Twitter" href="#" className='h-7'/>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src={WhatsApp} alt="WhatsApp" className='h-[26px]' />
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                                <img src={LinkedIn} alt="LinkedIn" className='h-[26px]' />
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <img src={Instagram} alt="Instagram" className='h-[26px]' />
+                            </a>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                <img src={GitHub} alt="GitHub" className='h-[26px]' />
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                                <img src={TwitterX} alt="Twitter" className='h-[26px]' />
+                            </a>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -50,7 +61,7 @@ function Footer() {
                 <div className="flex-grow px-7 pt-2">
                     <h2 className="text-[28px] font-['Alata']">About Us</h2>
                 </div>
-                
+
                 <div className="h-auto w-0 border-l border-white my-3"></div>
 
                 <div className="pt-2 pb-7 flex-grow px-7">
@@ -70,7 +81,7 @@ function Footer() {
                         </li>
                     </ol>
                 </div>
-                
+
                 <div className="h-auto w-0 border-l border-white my-3"></div>
 
                 <div className="flex-grow px-7 pt-2">
