@@ -1,6 +1,6 @@
-import Img1 from '../assets/Img1.svg';
-import Img2 from '../assets/Img2.svg';
-import Img3 from '../assets/Img3.svg';
+import Img1 from '../assets/img1.svg';
+import Img2 from '../assets/img2.svg';
+import Img3 from '../assets/img3.svg';
 import ImgTextCombo1 from './ImgTextCombo1';
 import ImgTextCombo2 from './ImgTextCombo2';
 
