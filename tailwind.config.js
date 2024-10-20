@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'Alata': ['Alata', 'sans-serif'],
+        'Actor': ['Actor', 'sans-serif'],
       }
     },
   },
