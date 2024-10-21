@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import NoPage from './pages/NoPage'
+import Blog from './pages/Blog'
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
                 <Routes>
                     <Route index element={<Home />} />
                     <Route path="/home" element={<Home />} />
+                    <Route path="/blog" element={<Blog />} />
                     <Route path="*" element={<NoPage />} />
                 </Routes>
             </BrowserRouter>
