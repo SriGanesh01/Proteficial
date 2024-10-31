@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import HeroBlog from '../components/HeroBlog';
+import AllBlogs from '../components/AllBlogs';
 import Footer from "../components/Footer";
 
 function Blog() {
@@ -7,6 +8,7 @@ function Blog() {
         <>
             <Header />
             <HeroBlog />
+            <AllBlogs />
             <Footer />
         </>
     );
